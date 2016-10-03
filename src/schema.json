@@ -144,19 +144,19 @@
       "properties": {
         "Completed": {
           "type": "string",
-          "pattern": "arn:aws:sns:(\\w+-\\w+-\\d+):[0-9]*:[\\w-]*"
+          "pattern": "^arn:aws:sns:(\\w+-\\w+-\\d+):[0-9]*:[\\w-]*$|^$"
         },
         "Error": {
           "type": "string",
-          "pattern": "arn:aws:sns:(\\w+-\\w+-\\d+):[0-9]*:[\\w-]*"
+          "pattern": "^arn:aws:sns:(\\w+-\\w+-\\d+):[0-9]*:[\\w-]*$|^$"
         },
         "Progressing": {
           "type": "string",
-          "pattern": "arn:aws:sns:(\\w+-\\w+-\\d+):[0-9]*:[\\w-]*"
+          "pattern": "^arn:aws:sns:(\\w+-\\w+-\\d+):[0-9]*:[\\w-]*$|^$"
         },
         "Warning": {
           "type": "string",
-          "pattern": "arn:aws:sns:(\\w+-\\w+-\\d+):[0-9]*:[\\w-]*"
+          "pattern": "^arn:aws:sns:(\\w+-\\w+-\\d+):[0-9]*:[\\w-]*$|^$"
         }
       }
     }
